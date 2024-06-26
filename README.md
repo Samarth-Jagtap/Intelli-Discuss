@@ -9,7 +9,7 @@ Last update: June 26th, 2024
 - [Motivation](https://github.com/RamiKrispin/lang2sql#motivation)
 - [Scope and General Architecture](https://github.com/RamiKrispin/lang2sql#scope-and-general-architecture)
 - [System Requirements](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#system-requirements)
-- [Running Of Code](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#running-of-code)
+- [Running the Code](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#running-the-code)
 - [Summary](https://github.com/RamiKrispin/lang2sql#summary)
 - [Resources](https://github.com/RamiKrispin/lang2sql#resources)
   
