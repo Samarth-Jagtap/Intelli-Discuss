@@ -41,12 +41,56 @@ Here's a step-by-step breakdown of how it works:
   - **Creative:** Offering unique and engaging content, enhancing user interaction and engagement.
 
 <figure>
-<img src="images/ChatPDF Architectiure.png" width="100%" align="center"/></a>
+<img src="images/General Architectiure.png" width="100%" align="center"/></a>
 <figcaption> Figure 1 - General Architecture describing the main function </figcaption>
 </figure>
 <br>
 <br />
 
+### 2. ChatPDF Block Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<img src="images/ChatPDF Diagram.png" width="100%" align="center"/></a>
+<figcaption> Figure 2 - Block Diagram for ChatPDF APP </figcaption>
+</figure>
+<br>
+<br />
+
+
+### 3. ChatCSV Block Diagram
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure>
+<img src="images/ChatCSV Diagram.png" width="100%" align="center"/></a>
+<figcaption> Figure 3 - Block Diagram for ChatCSV APP </figcaption>
+</figure>
+<br>
+<br />
 
 # System Requirements:
 
