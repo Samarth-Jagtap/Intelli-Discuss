@@ -17,23 +17,28 @@ Last update: June 26th, 2024
 
 ### 1. General Architecture
 
-- **User Input:** Users enter text messages or posts in the designated input field.
+Our system is designed to seamlessly process user input, leveraging advanced language model (LLM) capabilities and backend processing to enhance user interaction. 
 
-- **LLM Processing:** The user's input is processed by the LLM to potentially :
-  - Enhance the content.
-  - Generate creative text formats.
-  - Provide informative responses based on the platform's context.
+Here's a step-by-step breakdown of how it works:
+  
+- **User Input:** Users engage with the platform by entering text messages or posts in the designated input field.
 
-- **Backend Processing:** The user's input is sent to the backend for:
-  - Storing the message or post in a database.
-  - Analyzing the content for sentiment or other purposes.
-  - Filtering or moderating content if necessary.
+- **LLM Processing:** Once the input is received, the Language Learning Model (LLM) takes over to:
+  
+  - **Enhance the content:** Improve the quality, clarity, and coherence of the user's input.
+  - **Generate creative text formats:** Create unique and engaging text formats, such as stories, poems, or formatted responses.
+  - **Provide Informative Responses:** Offer insightful and contextually relevant replies based on the platform's specific requirements.
+    
+- **Backend Processing:** The processed input is then sent to the backend for further actions, including:
+  - **Data Storage:** Storing the message or post in a secure database for future reference or analysis.
+  - **Content Analysis:** Analyzing the content for sentiment, trends, or other relevant metrics.
+  - **Content Moderation:** Filtering or moderating the content to ensure it meets community guidelines and standards.
 
-- **Frontend Update:** The frontend is updated to reflect the user's input or any actions taken on the backend.
-
-- **Generated Response:** The LLM might generate a response to the user's input, which could be displayed in the frontend. This response could be informative or creative, depending on the LLM's configuration and the platform's design.
-
-
+- **Frontend Update:** The frontend dynamically updates to reflect the user's input and any actions taken by the backend. This ensures a seamless and responsive user experience.
+  
+- **Generated Response:** The LLM might generate a response to the user's input, which is then displayed on the frontend. This response could be:
+  - **Informative:** Providing useful information, answers to questions, or relevant suggestions.
+  - **Creative:** Offering unique and engaging content, enhancing user interaction and engagement.
 
 <figure>
 <img src="images/ChatPDF Architectiure.png" width="100%" align="center"/></a>
