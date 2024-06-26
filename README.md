@@ -17,27 +17,23 @@ Last update: June 26th, 2024
 
 ### 1. General Architecture
 
-#### User Input: Users enter text messages or posts in the designated input field.
+- **User Input:** Users enter text messages or posts in the designated input field.
 
-#### LLM Processing: The user's input is processed by the LLM to potentially:
+- **LLM Processing:** The user's input is processed by the LLM to potentially :
+  - Enhance the content.
+  - Generate creative text formats.
+  - Provide informative responses based on the platform's context.
 
-- Enhance the content.
-- Generate creative text formats.
-- Provide informative responses based on the platform's context.
+- **Backend Processing:** The user's input is sent to the backend for:
+  - Storing the message or post in a database.
+  - Analyzing the content for sentiment or other purposes.
+  - Filtering or moderating content if necessary.
 
-#### Backend Processing: The user's input is sent to the backend for:
+- **Frontend Update:** The frontend is updated to reflect the user's input or any actions taken on the backend.
 
-- Storing the message or post in a database.
-- Analyzing the content for sentiment or other purposes.
-- Filtering or moderating content if necessary.
+- **Generated Response:** The LLM might generate a response to the user's input, which could be displayed in the frontend. This response could be informative or creative, depending on the LLM's configuration and the platform's design.
 
-#### Frontend Update: 
 
-The frontend is updated to reflect the user's input or any actions taken on the backend.
-
-#### Generated Response: 
-
-The LLM might generate a response to the user's input, which could be displayed in the frontend. This response could be informative or creative, depending on the LLM's configuration and the platform's design.
 
 <figure>
 <img src="images/ChatPDF Architectiure.png" width="100%" align="center"/></a>
