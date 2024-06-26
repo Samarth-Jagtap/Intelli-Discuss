@@ -7,13 +7,13 @@ Last update: June 26th, 2024
 ## Table of Contents
 
 - [Motivation](https://github.com/RamiKrispin/lang2sql#motivation)
-- [Scope and General Architecture](https://github.com/RamiKrispin/lang2sql#scope-and-general-architecture)
+- [System Architectures](https://github.com/Samarth-Jagtap/Intelli-Discuss#system-architecture)
 - [System Requirements](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#system-requirements)
 - [Running the Code](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#running-the-code)
 - [Summary](https://github.com/RamiKrispin/lang2sql#summary)
 - [Resources](https://github.com/RamiKrispin/lang2sql#resources)
   
-# System Architecture
+# System Architectures
 
 ### 1. General Architecture
 
