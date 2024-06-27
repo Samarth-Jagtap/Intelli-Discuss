@@ -125,9 +125,50 @@ This workflow ensures a seamless process for handling PDFs, extracting meaningfu
 <br />
 
 
-### 3. ChatCSV Block Diagram
+### 3. Workflow for Processing and Analyzing CSVs
 
+### Uploading and Previewing CSVs
 
+**Example of uploading and previewing CSV files:**
+
+  **1. Access the CSV Upload Section:**
+       - Open the ChatCSV application and navigate to the section for CSV interaction.
+       - You will see an option to upload CSV files.
+
+  **2. Upload CSV Files:**
+       - Click on the "Upload CSV" button and select the CSV file from your local storage.
+       - The application will display a preview of the uploaded CSV file, showing the first few rows of data.
+
+### Entering Queries on CSV Data
+
+**Entering natural language queries and converting them to SQL:**
+
+  **1. Enter a Natural Language Query:**
+       - Below the CSV preview, there is a text input field for entering queries in natural language.
+       - Type your query, such as "Show me all the countries with a score greater than 7.6."
+
+  **2. Generating SQL Queries:**
+       - The system uses Google Gemini to convert the natural language query into an SQL query.
+       - The generated SQL query is displayed for user confirmation.
+
+  **3. Executing SQL Queries:**
+       - After confirming the SQL query, click the "Execute Query" button.
+       - The application runs the SQL query on the PostgreSQL database and displays the results in a tabular format.
+
+### Generating Plots from CSV Data
+
+**Creating visual plots based on CSV data queries:**
+
+  **1. Enter a Query for Plot Generation:**
+       - In the same section, you can enter a query that includes instructions for generating plots, such as "Plot a bar chart of scores by country."
+
+  **2. Generating Plots:**
+       - The system processes the query and generates a plot based on the CSV data.
+       - It uses Matplotlib to create visual representations of the data.
+
+  **3. Displaying Plots:**
+       - The generated plot is displayed below the query input field.
+       - You can interact with the plot, zoom in, or save it as needed.
 
 
 
