@@ -4,7 +4,7 @@ This repository provides a step-by-step guide and a template for setting up an a
 
 Last update: June 27th, 2024
 
-## Table of Contents
+# Table of Contents
 
 - [Motivation](https://github.com/RamiKrispin/lang2sql#motivation)
 - [System Architectures](https://github.com/Samarth-Jagtap/Intelli-Discuss#system-architectures)
@@ -13,7 +13,7 @@ Last update: June 27th, 2024
 - [Summary](https://github.com/RamiKrispin/lang2sql#summary)
 - [Resources](https://github.com/RamiKrispin/lang2sql#resources)
   
-## Motivation
+# Motivation
 
 The rapid growth of digital documents in various formats, such as PDFs and CSVs, has led to an increased need for tools that can efficiently process and extract valuable information from these sources. Traditional methods of manually extracting and analyzing data are time-consuming and often inefficient. 
 
@@ -35,7 +35,7 @@ By developing Intelli-Discuss, we aim to bridge the gap between advanced AI capa
 
 # System Architectures
 
-### 1. General Architecture
+## 1. General Architecture
 
 Our system is designed to seamlessly process user input, leveraging advanced language model (LLM) capabilities and backend processing to enhance user interaction. 
 
@@ -67,7 +67,7 @@ Here's a step-by-step breakdown of how it works:
 <br>
 <br />
 
-### 2. Workflow for Processing and Analyzing PDFs
+## 2. Workflow for Processing and Analyzing PDFs
 
 Our system allows for efficient handling of multiple PDFs, extracting, chunking, and processing the text to provide meaningful responses to user queries. Here's an interactive overview of how this process works:
 
@@ -113,7 +113,7 @@ Our system allows for efficient handling of multiple PDFs, extracting, chunking,
   
   The generated answer is returned to the user, providing a contextually accurate and informative response.
 
-## Diagram of the Workflow
+### Diagram of the Workflow
 
 This workflow ensures a seamless process for handling PDFs, extracting meaningful information, and providing accurate answers to user queries through an advanced language model.
 
@@ -125,17 +125,19 @@ This workflow ensures a seamless process for handling PDFs, extracting meaningfu
 <br />
 
 
-### 3. Workflow for Processing and Analyzing CSVs
+## 3. Workflow for Processing and Analyzing CSVs
 
 ### Uploading and Previewing CSVs
 
 **Example of uploading and previewing CSV files:**
 
-  **1. Access the CSV Upload Section:**
+  - **Access the CSV Upload Section:**
+  
        - Open the ChatCSV application and navigate to the section for CSV interaction.
        - You will see an option to upload CSV files.
 
-  **2. Upload CSV Files:**
+  - **Upload CSV Files:**
+  
        - Click on the "Upload CSV" button and select the CSV file from your local storage.
        - The application will display a preview of the uploaded CSV file, showing the first few rows of data.
 
@@ -143,15 +145,18 @@ This workflow ensures a seamless process for handling PDFs, extracting meaningfu
 
 **Entering natural language queries and converting them to SQL:**
 
-  **1. Enter a Natural Language Query:**
+  - **Enter a Natural Language Query:**
+  
        - Below the CSV preview, there is a text input field for entering queries in natural language.
        - Type your query, such as "Show me all the countries with a score greater than 7.6."
 
-  **2. Generating SQL Queries:**
+  - **Generating SQL Queries:**
+  
        - The system uses Google Gemini to convert the natural language query into an SQL query.
        - The generated SQL query is displayed for user confirmation.
 
-  **3. Executing SQL Queries:**
+  - **Executing SQL Queries:**
+  
        - After confirming the SQL query, click the "Execute Query" button.
        - The application runs the SQL query on the PostgreSQL database and displays the results in a tabular format.
 
@@ -159,27 +164,22 @@ This workflow ensures a seamless process for handling PDFs, extracting meaningfu
 
 **Creating visual plots based on CSV data queries:**
 
-  **1. Enter a Query for Plot Generation:**
-       - In the same section, you can enter a query that includes instructions for generating plots, such as "Plot a bar chart of scores by country."
+  - **Enter a Query for Plot Generation:**
+        In the same section, you can enter a query that includes instructions for generating plots, such as "Plot a bar chart of scores by country."
 
-  **2. Generating Plots:**
+  - **Generating Plots:**
+  
        - The system processes the query and generates a plot based on the CSV data.
        - It uses Matplotlib to create visual representations of the data.
 
-  **3. Displaying Plots:**
+  - **Displaying Plots:**
+  
        - The generated plot is displayed below the query input field.
        - You can interact with the plot, zoom in, or save it as needed.
+      
+### Diagram of the Workflow
 
-
-
-
-
-
-
-
-
-
-
+This structured workflow ensures users can efficiently upload and analyze CSV files, providing an interactive and insightful experience through the integration of a language model.
 
 <figure>
 <img src="images/ChatCSV Diagram.png" width="100%" align="center"/></a>
