@@ -13,6 +13,26 @@ Last update: June 26th, 2024
 - [Summary](https://github.com/RamiKrispin/lang2sql#summary)
 - [Resources](https://github.com/RamiKrispin/lang2sql#resources)
   
+## Motivation
+
+The rapid growth of digital documents in various formats, such as PDFs and CSVs, has led to an increased need for tools that can efficiently process and extract valuable information from these sources. Traditional methods of manually extracting and analyzing data are time-consuming and often inefficient. 
+
+**Intelli-Discuss** was created to address these challenges by providing a robust and user-friendly application that leverages advanced AI and machine learning techniques to automate the process of document interaction and data visualization. Our motivation for developing Intelli-Discuss includes:
+
+1. **Enhanced Document Interaction**: To provide users with the ability to easily upload, process, and interact with PDFs and CSVs, transforming static documents into dynamic, queryable data sources.
+
+2. **Time Efficiency**: To save users time by automating the extraction of meaningful information from large volumes of text and data, enabling quick and accurate responses to user queries.
+
+3. **Improved Accessibility**: To make complex data accessible and understandable to a broader audience, including those without specialized technical skills, through natural language queries and intuitive visualizations.
+
+4. **Integration of Advanced Technologies**: To integrate cutting-edge technologies such as semantic search using embeddings, contextual response generation, and data visualization, showcasing the power and potential of AI in practical applications.
+
+5. **Facilitating Data-Driven Decision Making**: To empower users to make informed decisions based on accurate and timely information extracted from their documents, enhancing productivity and effectiveness in various fields, including business, research, and education.
+
+By developing Intelli-Discuss, we aim to bridge the gap between advanced AI capabilities and everyday document interaction, providing a powerful tool that meets the evolving needs of users in the digital age.
+
+
+
 # System Architectures
 
 ### 1. General Architecture
@@ -47,20 +67,55 @@ Here's a step-by-step breakdown of how it works:
 <br>
 <br />
 
-### 2. ChatPDF Block Diagram
+### 2. Workflow for Processing and Analyzing PDFs
 
+Our system allows for efficient handling of multiple PDFs, extracting, chunking, and processing the text to provide meaningful responses to user queries. Here's an interactive overview of how this process works:
 
+- **Step 1: Input/Upload PDFs**
+  
+  Users can upload multiple PDF documents as required.
+  
+- **Step 2: Text Extraction**
+  
+  We utilize the PyPDF2 library to read the uploaded PDFs and extract the text using PDFReader.
+  
+ - **Step 3: Text Chunking**
+   
+   Once the text extraction is complete, we run a loop to divide the extracted data into smaller, manageable chunks of text.
+      
+- **Step 4: Text Embedding**
+  
+  The smaller chunks of text are then converted into embeddings using a specific algorithm.
+    
+- **Step 5: Storing Embeddings**
+  
+  These embeddings are stored in a knowledge database, creating a repository of indexed text chunks.
+    
+- **Step 6: User Question Handling**
+  
+  - **Question Input:** Users input their questions into the system.
+  - **Embedding User Question:** The questions are embedded using the same algorithm used for the text chunks.
+    
+- **Step 7: Building Semantic Index**
+  
+  A semantic index of the questions is built to provide a ranked result of the relevant text chunks.
+  
+- **Step 8: Language Model Processing**
+  
+  - **Selecting Relevant Chunks:** The system finds and ranks the chunks of text relevant to the user’s question based on their importance.
+  - **Providing Context:** These selected chunks are sent as context to the language model.
+     
+- **Step 9: Generating Responses**
+  
+  The language model generates an answer based on the chunks of text selected by our vector store.
+  
+- **Step 10: Providing Answer**
+  
+  The generated answer is returned to the user, providing a contextually accurate and informative response.
 
+## Diagram of the Workflow
 
-
-
-
-
-
-
-
-
-
+This workflow ensures a seamless process for handling PDFs, extracting meaningful information, and providing accurate answers to user queries through an advanced language model.
 
 <figure>
 <img src="images/ChatPDF Diagram.png" width="100%" align="center"/></a>
