@@ -2,7 +2,7 @@
 
 This repository provides a step-by-step guide and a template for setting up an advanced document analysis and query system. It processes both PDFs and CSVs, enabling efficient extraction, search, and visualization of information.
 
-Last update: June 26th, 2024
+Last update: June 27th, 2024
 
 ## Table of Contents
 
