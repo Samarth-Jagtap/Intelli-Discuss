@@ -271,3 +271,47 @@ To run the whole program successfully, execute the following command:
 
  This command will start the Streamlit application and allow you to interact with your project.
 
+
+# Summary 
+
+Intelli-Discuss is a powerful tool designed to enhance user interaction with structured and unstructured data. Its primary capabilities include:
+
+## 1. PDF Functionality:
+- **Uploading PDFs:** Users can easily upload PDF files for analysis.
+- **Text Extraction:** Utilizing the PyPDF2 library, the tool extracts text from PDFs, converting them into analyzable data.
+- **Dividing Text into Chunks:** Extracted text is divided into manageable chunks to facilitate efficient processing and response generation.
+- **Generating Embeddings:** The extracted text is transformed into embeddings using pre-trained models, making it suitable for semantic search and context-based querying.
+- **Contextual Response Generation:** Based on user queries, the system generates accurate, contextually relevant answers from the PDF content.
+
+## 2. CSV Functionality:
+- **Uploading CSVs:** Users can upload CSV files, which are previewed to ensure data integrity.
+- **Inserting Data into Database:** The tool allows the creation of database tables and the insertion of CSV data into a PostgreSQL database, ensuring that data is structured and accessible.
+- **Deleting Tables from Database:** Users can delete all tables from the PostgreSQL database, maintaining database hygiene and control.
+- **Generating Embeddings:** CSV data is converted into embeddings, enabling semantic search and context-based querying.
+- **Graphical Representation:** The tool can generate graphs from CSV data, providing visual insights into the data.
+
+## 3. User Interaction:
+- **Inputting User Queries:** Users can input queries in natural language, which are converted into embeddings for processing.
+- **Converting Queries to Embeddings:** The tool transforms user queries into embeddings, facilitating semantic search and contextual understanding.
+
+## 4. Semantic Search:
+- **Performing Semantic Search:** The system executes semantic searches using embeddings, ensuring that user queries are matched with the most relevant data.
+- **Ranking Search Results:** Search results are ranked based on relevance, providing users with the most pertinent information.
+
+## 5. Contextual Response Generation:
+- **Providing Context to the Language Model:** The tool supplies the necessary context to the language model, ensuring that responses are accurate and relevant.
+- **Generating Answers Based on Context:** Using contextual information, the system generates precise and helpful responses to user queries.
+
+## 6. User Response:
+- **Displaying Answers to Users:** The tool formats and presents answers in a user-friendly manner, whether in text or graphical form.
+- **Handling Follow-up Questions and Maintaining Context:** Intelli-Discuss maintains conversational context across multiple queries, ensuring coherent and relevant follow-up answers.
+  
+
+# Resources
+
+- Chicago Crime data set - https://data.cityofchicago.org/Public-Safety/Crimes-2020/qzdf-xmn8
+- OpenAI API documentation - https://platform.openai.com/docs/introduction
+- OpenAI API registration - (https://platform.openai.com/api-keys)
+- OpenAI API list of models - https://platform.openai.com/docs/models
+-
+
