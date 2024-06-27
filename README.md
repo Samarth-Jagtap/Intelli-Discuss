@@ -309,9 +309,15 @@ Intelli-Discuss is a powerful tool designed to enhance user interaction with str
 
 # Resources
 
-- Chicago Crime data set - https://data.cityofchicago.org/Public-Safety/Crimes-2020/qzdf-xmn8
-- OpenAI API documentation - https://platform.openai.com/docs/introduction
-- OpenAI API registration - (https://platform.openai.com/api-keys)
-- OpenAI API list of models - https://platform.openai.com/docs/models
--
+- [Google AI - Google Gemini Generative Models](https://ai.google.dev/gemini-api/docs/models/generative-models)
+- [OpenAI API documentation](https://platform.openai.com/docs/introduction)
+- [OpenAI API registration](https://platform.openai.com/api-keys)
+- [OpenAI API list of models](https://platform.openai.com/docs/models)
+- [PostgreSQL-Download](https://www.postgresql.org/download/)
+- [Streamlit Inc.-Documentation](https://docs.streamlit.io/)
+- [FAISS.ai-Documentation](https://faiss.ai/index.html)
+- [PandasAI Developers - PandasAI: Bringing the Power of AI to Pandas](https://docs.pandas-ai.com/intro)
+- [LangChain Developers - Recursive Character Text Splitter in LangChain](https://python.langchain.com/v0.1/docs/modules/data_connection/document_transformers/recursive_text_splitter/)
+
+
 
