@@ -8,7 +8,7 @@ Last update: June 27th, 2024
 
 - [Motivation](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#motivation)
 - [System Architectures](https://github.com/Samarth-Jagtap/Intelli-Discuss#system-architectures)
-- [System Requirements](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#system-architectures)
+- [System Requirements](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#system-requirements)
 - [Running the Code](https://github.com/Samarth-Jagtap/Intelli-Discuss?tab=readme-ov-file#running-the-code)
 - [Final Steps](https://github.com/Samarth-Jagtap/Intelli-Discuss#final-steps)
 - [Summary](https://github.com/Samarth-Jagtap/Intelli-Discuss#summary)
